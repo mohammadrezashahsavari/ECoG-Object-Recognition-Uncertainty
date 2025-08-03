@@ -35,8 +35,8 @@ Using a sliding-window MVPA approach with an SVM classifier, we decoded the obje
 *Left: Decoding accuracy curves for different noise bins. Note that the purple (0-20% noise) and blue (20-40% noise) curves show significant decoding, while higher noise levels do not. Right: Peak decoding accuracy drops as noise increases, becoming non-significant (red squares) after the 0.3 noise level center.*
 
 <p align="center">
-  <img src="https://github.com/mohammadrezashahsavari/ECoG-Object-Recognition-Uncertainty/blob/master/Across%20Noise%20Levels%20Across%20Subjects%20Results/noise_levels_comparison.png" width="400">
-  <img src="https://github.com/mohammadrezashahsavari/ECoG-Object-Recognition-Uncertainty/blob/master/Across%20Noise%20Levels%20Across%20Subjects%20Results/PeakDecodingAccuracy%20vs%20NoiseLevel.png" width="400">
+  <img src="https://github.com/mohammadrezashahsavari/ECoG-Object-Recognition-Uncertainty/blob/master/Across%20Noise%20Levels%20Across%20Subjects%20Results/noise_levels_comparison.png" width="500">
+  <img src="https://github.com/mohammadrezashahsavari/ECoG-Object-Recognition-Uncertainty/blob/master/Across%20Noise%20Levels%20Across%20Subjects%20Results/PeakDecodingAccuracy%20vs%20NoiseLevel.png" width="300">
 </p>
 
 This abrupt cutoff is also visible in the channel-wise MVPA results for a single subject, where the robust decoding seen in low-noise bins (1 and 2) vanishes in higher-noise bins.
@@ -166,4 +166,5 @@ The main libraries used in this project are:
 - `pandas`
 - `nilearn`
 - `plotly`
+
 
